@@ -23,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/upvote_text_view"
         android:textStyle="bold"
-
         android:padding="4dp"
         android:text="HEY"
 

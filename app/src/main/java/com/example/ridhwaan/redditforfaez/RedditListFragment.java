@@ -225,7 +225,7 @@ public class RedditListFragment extends Fragment implements AsyncResponse
             Toast.makeText(getActivity(), "Index is " + index, Toast.LENGTH_SHORT).show();
             //mRecyclerView.getAdapter().notifyItemMoved(0,2);
            // Intent i = DetailActivity.startIntent(getActivity(),mObjectList.get(index).getPostID());
-             Intent i = RedditPagerActivity.newInstance(getActivity(),mObjectList.get(index).getPostID());
+            Intent i = RedditPagerActivity.newInstance(getActivity(),mObjectList.get(index).getPostID());
             startActivity(i);
 
 

@@ -25,6 +25,11 @@ public abstract class SingleFragmentActivity extends AppCompatActivity {
 
 
         FragmentManager fm = getSupportFragmentManager();
+        // First we need fragment manager to build any fragment
+        //Next we look for any fragment that has the given ID. If it
+        //does then dont do anything
+        //If its empty then lets create a fragment
+
         Fragment fragment = fm.findFragmentById(R.id.fragment_container);
 
         if(fragment == null){
