@@ -209,6 +209,7 @@ public class RedditListFragment extends Fragment implements AsyncResponse
             titleOfPost = (TextView) itemView.findViewById(R.id.title_reddit_view);//by casting itemView to a TextView, this forces client to pass text view
             author = (TextView) itemView.findViewById(R.id.author_reddit_view);
             upvote = (TextView) itemView.findViewById(R.id.upvote_text_view);
+            //test
 
 
 
