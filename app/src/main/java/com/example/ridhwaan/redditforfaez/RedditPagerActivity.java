@@ -58,15 +58,7 @@ public class RedditPagerActivity extends AppCompatActivity{
 
 
         viewPager.setAdapter(new FragmentStatePagerAdapter(fragmentManager)
-
-
-
-
         {
-
-
-
-
             @Override
             public Fragment getItem(int position) {
                 RedditObject redditObject = mRedditObjects.get(position);
